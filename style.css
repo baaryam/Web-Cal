@@ -132,11 +132,11 @@ button:active {
     }
 
     .equal {
-        grid-column: span 2;
+        grid-column: span 1;
     }
 
     .clear {
-        grid-column: span 3;
+        grid-column: span 1;
     }
 
     footer {
@@ -168,3 +168,4 @@ button:active {
         padding: 8px 0;
     }
 }
+
