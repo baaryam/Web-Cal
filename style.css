@@ -149,7 +149,7 @@ button:active {
 /* Extra Small Mobile */
 @media screen and (max-width: 350px) {
     #calculator {
-        padding: 15px;
+        padding: 80px;
         gap: 8px;
     }
 
@@ -168,5 +168,6 @@ button:active {
         padding: 8px 0;
     }
 }
+
 
 
