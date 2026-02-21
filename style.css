@@ -117,12 +117,14 @@ button:active {
         width: 95%;
         padding: 10px;
         gap: 10px;
+        border-radius: 10px;
     }
 
     #display {
         height: 60px;
         font-size: 26px;
         padding: 10px 16px;
+        border-radius: 10px;
     }
 
     button {
@@ -151,23 +153,27 @@ button:active {
     #calculator {
         padding: 80px;
         gap: 8px;
+        border-radius: 10px;
     }
 
     #display {
         height: 50px;
         font-size: 22px;
         padding: 10px;
+        border-radius: 10px;
     }
 
     button {
         height: 45px;
         font-size: 16px;
+        border-radius: 10px;
     }
     footer {
         font-size: 7px;
         padding: 8px 0;
     }
 }
+
 
 
 
