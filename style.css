@@ -115,7 +115,7 @@ button:active {
 @media screen and (max-width: 480px) {
     #calculator {
         width: 95%;
-        padding: 20px;
+        padding: 10px;
         gap: 10px;
     }
 
@@ -128,7 +128,7 @@ button:active {
     button {
         height: 50px;
         font-size: 18px;
-        border-radius: 15px;
+        border-radius: 10px;
     }
 
     .equal {
@@ -168,4 +168,5 @@ button:active {
         padding: 8px 0;
     }
 }
+
 
