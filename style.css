@@ -88,7 +88,7 @@ button:hover {
 .clear {
     background: #ff3b30;
     color: #fff;
-    grid-column: span 1;
+    grid-column: span 4;
 }
 
 footer {
@@ -115,30 +115,28 @@ button:active {
 @media screen and (max-width: 480px) {
     #calculator {
         width: 95%;
-        padding: 10px;
+        padding: 20px;
         gap: 10px;
-        border-radius: 10px;
     }
 
     #display {
         height: 60px;
         font-size: 26px;
         padding: 10px 16px;
-        border-radius: 10px;
     }
 
     button {
         height: 50px;
         font-size: 18px;
-        border-radius: 10px;
+        border-radius: 15px;
     }
 
     .equal {
-        grid-column: span 1;
+        grid-column: span 2;
     }
 
     .clear {
-        grid-column: span 1;
+        grid-column: span 3;
     }
 
     footer {
@@ -151,30 +149,22 @@ button:active {
 /* Extra Small Mobile */
 @media screen and (max-width: 350px) {
     #calculator {
-        padding: 80px;
+        padding: 15px;
         gap: 8px;
-        border-radius: 10px;
     }
 
     #display {
         height: 50px;
         font-size: 22px;
         padding: 10px;
-        border-radius: 10px;
     }
 
     button {
         height: 45px;
         font-size: 16px;
-        border-radius: 10px;
     }
     footer {
         font-size: 7px;
         padding: 8px 0;
     }
 }
-
-
-
-
-
